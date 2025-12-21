@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Orphan's Purgatory</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Orphan's Purgatory - Discord server for a community of friends to hang out, chat, and share interests.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="TuWazo">
+    <meta name="keywords" content="Discord, comunidad, amigos, chat, intereses">
+    <meta name="locality" content="Spain, Latin America">
+    <meta name="category" content="Social, Community">
+    <link rel="stylesheet" href="css/StyleIndex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+
+<!-- Modal Quienes Somos -->
+<div id="modal-about" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>¿Quiénes somos?</h2>
+        <br>
+        <p>
+            Somos una comunidad de Discord enfocada en compartir,
+            aprender y pasar un buen rato. Organizamos dinamicas,
+            y actividades e incluso sorteos de vez en cuando.
+        </p>
+        <br>
+        <p>
+            Aquí tambien podras encontrar canales interesantes como el de Icons
+            para que tengas que ponerte en tu bonito perfil.
+        </p>
+        <br> 
+        <p>
+            Tambien disponemos de varios bots como podria ser la querida Nekotina, Poketwo, incluso tenemos nuestra propia economia
+            con la que podras comprar roles y otras cosas intersantes.
+        </p>
+    </div>
+</div>
+<!-- Modal Reglas -->
+<div id="modal-rules" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeRules()">&times;</span>
+        <h2>Reglas del servidor</h2>
+        <ul class="rules-list">
+            <li>Respeta a todos los miembros.</li>
+            <li>Prohibido contenido sensible y NSFW.</li>
+            <li>Usar los canales para su proposito asignado.</li>
+            <li>Prohibido compartir datos personales.</li>
+            <li>Evitar la promoción y publicidad sin autorización del Staff.</li>
+        </ul>
+
+        <p class="rules-note">
+            El incumplimiento de las normas puede resultar en sanciones.
+        </p>
+        <p class="rules-note">
+            Debe leerse las reglas en el canal asignado para mejor compresion o añadido de nuevas reglas.
+        </p>
+    </div>
+</div>
+<!-- Modal Staff -->
+<div id="modal-staff" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeStaff()">&times;</span>
+        <h2>Nuestro Staff</h2>
+        <p>
+            Owner: Mayo
+            Co-Owner: Gumi
+        </p>
+        <p>
+            Head Admin: Kumi
+        </p>
+        <p>
+            Admins: Clover, Mimi
+        </p>
+        <p>
+            Moderadores: Deniss Mitsu, Sergi
+        </p>
+        <p>
+            Helpers: Dante, Ciro, Nay, Mork, Elli, Ángel, Copper
+    </div>
+</div>
+        
+<body>
+ <!-- Intro -->
+ <div id="intro">
+    <pre id="ascii-art"></pre>
+  </div>
+
+
+ <!-- ================== Nav ================== -->
+   <nav class="navbar">
+     <div class="container-nav">
+      <a href="index.html" class="logo-nav">Orphan's Purgatory</a>
+    </div>    
+   </nav>
+
+     <!-- ================== Hero ================== -->
+  <header class="hero">
+    <div class="contenido-hero">
+        <img src="images/pbanner.png" alt="Orphan's Purgatory" class="logo">
+        <h1 class="slogan">Your space. Your people. Your server.</h1>
+    
+        <div class="botones-hero">
+            <div class="botones-principales">
+                <a href="#" class="btn" onclick="openModal()">Quienes Somos</a>
+                <a href="#" class="btn" onclick="openRules()">Reglas</a>
+                <a href="#" class="btn" onclick="openStaff()">Staff</a>
+                <a href="views/noticias.html" class="btn">Noticias</a>
+            </div>
+    
+            <a href="https://discord.gg/JhRDPB6ArZ" class="btn btn-join">Únete a nosotros</a>
+        </div>
+    </div>
+  </header>
+  <section id="widgetbot-section">
+    <div class="widgetbot-container">
+      <iframe 
+        src="https://e.widgetbot.io/channels/860229597127507989/1398461978577735771" 
+        allow="clipboard-write; fullscreen" 
+        frameborder="0"
+        class="widgetbot-iframe">
+      </iframe>
+    </div>
+  </section>
+  
+  <!-- ================== Footer ================== -->
+  <footer>
+    <p>&copy; TuWazo | Todos los derechos reservados</p>
+    <p>Medios de contacto:</p>
+    
+    <div class="social-icons">
+        <a href="discord.com/users/625754542952153089" target="_blank" class="discord">
+            <i class="fab fa-discord"></i>
+    </div>
+  </footer>
+  
+  <!-- ================== Scripts ================== -->
+<script src="js/index.js"></script>
+</body>
+</html>
